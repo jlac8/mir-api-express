@@ -1,0 +1,30 @@
+{
+  "name": "mir-api-express",
+  "version": "1.0.0",
+  "description": "Mi primera API con express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx index.ts",
+    "dev": "npx tsx watch index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlac8/mir-api-express.git"
+  },
+  "author": "juan alva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlac8/mir-api-express/issues"
+  },
+  "homepage": "https://github.com/jlac8/mir-api-express#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "tsc-init": "^2.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
